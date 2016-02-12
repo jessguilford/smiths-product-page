@@ -1,3 +1,92 @@
-html {
+/*Document styling*/
+
+* {
   box-sizing: border-box;
+}
+
+.container {
+  width: 75%;
+  margin: 15px auto 15px auto;
+  background-color: #fff;
+}
+
+body {
+  background-color: #e9dccd;
+  color: #36384c;
+}
+
+.cf::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*Nav Styling*/
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#brand-title {
+  float: left;
+  margin-left: 15px;
+}
+
+#nav-links {
+  float: right;
+}
+
+#nav-links li {
+  float: left;
+  margin: 0 15px 0 15px;
+}
+
+/*Content styling*/
+
+.main {
+  overflow-x: hidden;
+}
+
+.col1 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.col2 {
+  float: right;
+  width: 50%;
+}
+
+#product-image {
+  position: relative;
+  width: 80%;
+  padding: 50px 10px 10px 10px;
+  margin: 0 10% 10% 10%;
+}
+
+#product-hero {
+  padding: 10px;
+  width: 100%;
+}
+
+#product-label {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, .7);
+  font-size: 1.2em;
+  padding: 20px;
+}
+
+/*Table Styling*/
+
+table {
+  border: 1px solid grey;
+  width: 75%;
+}
+
+th {
+  text-align: left;
 }
