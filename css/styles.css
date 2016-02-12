@@ -51,12 +51,14 @@ ul {
 .col1 {
   float: left;
   width: 50%;
-  padding: 20px;
+  padding: 20px 20px 7.9% 20px;
+  border: 1px solid grey;
 }
 
 .col2 {
   float: right;
   width: 50%;
+  border: 1px solid grey;
 }
 
 #product-image {
@@ -71,13 +73,22 @@ ul {
   width: 100%;
 }
 
-#product-label {
+.product-label {
   width: 100%;
   position: absolute;
   bottom: 0;
   background-color: rgba(225, 225, 225, .7);
   font-size: 1.2em;
   padding: 20px;
+}
+
+.gallery {
+  padding-top: 10px;
+}
+
+.gallery img {
+  max-width: 250px;
+  margin: 10px;
 }
 
 /*Table Styling*/
