@@ -37,7 +37,20 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
+  font-family: 'bonvenocflight', sans-serif;
+}
+
+h2 {
+  font-size: 1em;
+  font-family: 'bonvenocflight', sans-serif;
+  padding-left: 40px;
+}
+
+hr {
+  border-style: solid;
+  border-color: #7bc6a0;
+  width: 95%;
 }
 
 /*Nav Styling*/
@@ -69,6 +82,10 @@ ul {
   margin: 0 15px 0 15px;
 }
 
+#nav-links li:hover {
+  color: #e9e6d7;
+}
+
 /*Content styling*/
 
 #header-bar {
@@ -98,7 +115,7 @@ ul {
 .col1 {
   float: left;
   width: 50%;
-  padding: 20px 20px 7.9% 20px;
+  padding: 20px 20px 7.9% 40px;
 }
 
 .col2 {
@@ -110,7 +127,7 @@ ul {
   position: relative;
   width: 80%;
   padding: 50px 10px 10px 10px;
-  margin: 0 10% 10% 10%;
+  margin: 0 10% 0 10%;
 }
 
 #product-hero {
@@ -127,13 +144,31 @@ ul {
   padding: 20px;
 }
 
+button {
+  margin: 15px 12%;
+  background-color: #ef936f;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #e88159;
+}
+
+button:active {
+  background-color: #da432f;
+}
+
 .gallery {
   padding-top: 10px;
 }
 
 .gallery img {
   max-width: 250px;
-  margin: 10px;
+  margin: 30px;
   float: left;
 }
 
