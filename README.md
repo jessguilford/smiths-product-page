@@ -10,7 +10,7 @@ This is a product page featuring Smith's Rosebud Salve. It uses a layout based o
 
 ## Setup/Installation Requirements
 
-Clone this repository and open index.html in your browser of choice.
+Clone this repository and open index.html in your browser of choice, or visit http://jessguilford.github.io/smiths-product-page/
 
 ## Known Bugs
 
